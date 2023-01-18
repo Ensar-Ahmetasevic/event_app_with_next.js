@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 // connecting to MongoDB
 export async function connectDatabase() {
   const url =
-    "mongodb+srv://Ensar_MongoDB:Love1986+@cluster0.1odepbc.mongodb.net/events?retryWrites=true&w=majority";
+    "mongodb+srv://Ensar_MongoDB:G6nOlo0WUDHxntqV@cluster0.1odepbc.mongodb.net/events?retryWrites=true&w=majority";
   const client = await MongoClient.connect(url);
 
   return client;

@@ -19,7 +19,7 @@ async function handler(req, res) {
    // FIRST METHOD
     // Connection URL
     const url =
-      "mongodb+srv://Ensar_MongoDB:Love1986+@cluster0.1odepbc.mongodb.net/?retryWrites=true&w=majority";
+      "mongodb+srv://Ensar_MongoDB:G6nOlo0WUDHxntqV@cluster0.1odepbc.mongodb.net/?retryWrites=true&w=majority";
     const client = new MongoClient(url);
 
     // Database Name
